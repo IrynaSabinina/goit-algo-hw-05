@@ -99,8 +99,8 @@ def main():
     }
 
     patterns = {
-        "existing": "підрядок",  # Вкажіть реальний підрядок
-        "non_existing": "вигаданий_підрядок"
+       "existing": "використання",  # Вкажіть реальний підрядок
+        "non_existing": "blablabla"
     }
 
     for text_num, text in zip(["Article 1", "Article 2"], [text1, text2]):
